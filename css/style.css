@@ -1,0 +1,282 @@
+@import url(http://fonts.googleapis.com/css?family=Patua+One|Source+Sans+Pro);
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***************/
+/*   General   */
+/***************/
+
+/* Sur le corps du document :
+	- définir une largeur de 960px et centrer le corps du document.
+	- la police utilisée est Source Sans Pro. Elle est de type sans-serif.
+	-
+*/
+/* ... */ {
+	position: relative;
+}
+
+/* Tous les titres utilisent la polive Patua One de type cursive. */
+/* La largeur de l'article est définie à 68% de son parent et le texte est justifié */
+/* La largeur du contenu annexe est définie à 25% avec 2% de padding et un arrière-plan de couleur #f2f2f2 */
+
+/* ... */ {
+	position: absolute;
+	top: 147px;
+	right: 0;
+}
+
+/* Le texte des captures d'écrans est centré, la taille de la polive de 0.9em
+	- Le texte est espacé de 1em en haut, 1.5em en bas, 0em à droite et 0me à gauche.
+*/
+
+/* La couleur d'arrière-plan du pied-de-page est #333, le texte est blanc et espacé de 0.25em */
+/* Les titres de niveau 2 ont une police de taille 1.75em de graisse épaisse */
+/* Les titres de niveau 3 ont une police de taille 1.3em de graisse épaisse et espacé au dessus de 1.5em */
+/* Les paragraphes sont espacés au dessus et en dessous de 1em et l'interligne est de 1.3rem */
+/* Les balises cite de class oeuvre ainsi que les blockquote, les q et les em sont en italique */
+/* Les blockquotes sont de taille 0.9em, l'interligne est de 1.25em, l'espace interne est de 0 en haut et en bas et 4em à droite et à gauche*/
+/* Le texte en exposant est de taille 0.75em */
+/* ... */{
+	vertical-align: super;
+
+}
+/* Les marges du hr sont de 2em en haut, 1em en bas et 0 à gauche et à droite. */
+
+
+/**************/
+/*   Header   */
+/**************/
+
+/* l'élément de classe main_header possède des marges de 10px en haut, 25px en bas et 0 à gauche et à droite. */
+/* ... */{
+	position: relative;
+
+}
+/* Le lien dans le titre principale est :
+	- indenté négativement de 5000px,
+	- son affichage est changé de inline à block,
+	- sa largeur est de 147px,
+	- l'image d'arrière-plan est logo.jpg,
+	- la taille de l'arrière plan est de 100% et ne se répète pas.
+*/
+/* L'élément de classe main_nav a une couleur d'arrière-plan (#3DBD99) et sa largeur est de 80%. */
+/* ... */{
+	position: absolute;
+	top:37px;
+	right: 0px;
+}
+/* Le titre de niveau 2 dans ce même élément est masqué grâce à l'une des techniques que vous trouverez ici : snook.ca/archives/html_and_css/hiding-content-for-accessibility*/
+/* Les éléments de liste situés dans la navigation principale ont un affichage inline-block */
+/* Les liens se trouvant dans cet élément :
+	- ont une zone-clicable étendue de 1em
+	- ne sont pas souligné
+	- sont en gras
+	- de couleur blanche
+	- de taille 1.25em
+	- ont un rendu d'affichage de type block
+*/
+
+
+/**********************/
+/*   Article header   */
+/**********************/
+/* L'entête de l'article est espacé de 50px par rapport à l'élément précédent */
+/* Le titre de l'entête de l'article est espacé par rapport à l'élément suivant de 0.5em */
+/* Les éléments de liste qui sont dans l'article ont un rendu d'affichage de type inline-block */
+
+
+/*************/
+/*   Notes   */
+/*************/
+/* L'élément de classe .endNotes
+	- possède une taille de police de 0.9em,
+	- est espacé en haut et en bas de 1em.
+*/
+/* Les éléments de liste contenu dans cet élément sont espacés de 0.5em en haut et en bas. */
+/* Les blocs de citation
+	- ont un interligne de 1.25em
+	- un padding nul
+	- une taille de police de 1em
+	- un rendu d'affichage de type inline
+*/
+/* Les titres de niveau 3 dans l'élément de classe .endNotes est espacé en bas de 10px */
+
+
+/**********************/
+/*   En savoir plus   */
+/**********************/
+
+/* Les titres de niveau 3 compris dans l'élément de classe filmo sont espacé en bas de 15px et en haut de 25px */
+/* Le tableau a une taille de 100% et le texte des cellules et centré */
+/* Le titre du tableau est masqué grâce à l'une des techniques que vous trouverez ici : snook.ca/archives/html_and_css/hiding-content-for-accessibility*/*/
+/* Le tableau et ces cellules possèdent
+	- une bordure d'un px d'épaisseur noir et une marge interne de 2,
+	- d'une marge interne de 5px en haut et en bas et de 2px à gauche et à droite.
+*/
+/* Les liens du tableau sont noir, gras et non souligné. */
+
+
+/**************/
+/* Formulaire */
+/**************/
+/* Le formulaire a une largeur de 68% */
+/* Les éléments required ont une taille de 0.8em et un espace en bas de 20px */
+/* Les labels de l'élément de classe civil
+	- ont un arrière-plan #eee
+	- une largeur de 174px
+	- un rendu d'affichage de type inline-block
+	- une marge interne de 10px
+*/
+/* Au survol, l'arrière-plan de ces éléments est rgb(59, 153, 252) et le texte est blanc */
+/* Les éléments de liste contenus dans l'élément de classe civil ont une largeur de 33% et un rendu d'affichage de type inline-block */
+/* Les labels dans inputs, pseudo, mail et commentaire
+	- un rendu d'affichage de type inline-block,
+	- et une espace en bas de 0.5em.
+*/
+/* les inputs pseudo et mail
+	- ont une largeur de 610px
+	- une marge interne de 10px en haut et en bas, et 20px à gauche et à droite
+*/
+
+/* Les éléments ayant la classe "pays" et aussi classe "cote" ont
+ un rendu d'affichage de type inline-block.
+ Et seuls ceux de classe "pays" ont une marge à droite de 2em  */
+
+/* La liste déroulante
+	- a un espacement tout autour de 10px
+	- n'a pas de bordure
+	- se comporte comme un inline-block
+	- hérite de la police de caractères de son ancêtre
+	- a une taille de police de 0,8em
+	- a une hauteur de 30px
+	- une marge droite calculée par le navigateur
+*/
+
+/* Les input dans l'élément de classe "cote" ont un espacement interne
+	- au-dessus et en-dessous de 10px
+	- à gauche et à droite de 20px
+*/
+
+/* Les textarea ont une largeur de 648px et une hauteur minimale de 150px */
+
+/* Les éléments ayant la classe "newsletter" ont une marge
+	- au-dessus de -10px
+	- en-dessous de 20px
+	- à gauche et à droite de 0
+*/
+
+/* Le bouton de soumission dans une section a
+	- une largeur de 100%
+	- une espacement interne tout autoure de 1em
+	- une taille de police de 1em
+	- la police de caractères héritée de son ancêtre
+	- une couleur de fond
+	- le texte en blanc
+	- pas de bordure
+	- les coins arrondis de 0,25em
+*/
+
+/*************/
+/*   Aside   */
+/*************/
+/* les liens de navigation ont
+	- un rendu de type block
+	- ne sont pas soulignés
+	- une couleur de fond
+	- une bordure gauche  de 1px
+	- un espacement interne de 1em
+	- une taille de police de 0,9em
+	- le texte en couleur
+	- sont en gras
+*/
+
+/* le menu de navigation a une marge en-dessous de 2em */
+
+/* le titre
+	- a une marge au-dessus de 0 et en-dessousde 1em
+	- une taille de police de 1,25em
+	- est caché
+*/
+
+
+/* Le titre du menu a une marge au-dessus de 0 et en-dessous de 10px */
+
+/* La liste de définitions du menu a
+	- une taille de police de 0,8em
+	- espacement interne au dessus de 0 et partout ailleurs de 1em
+*/
+
+/* Les termes de la liste de définitions du menu ont une marge
+	- au-dessus de 1em
+	- à gauche et à droite de 0
+	- en-dessous de 0,25em
+*/
+
+/* Les liens dans les termes de la liste de définitions du menu ont
+	- une couleur de fond transparente
+	- pas de bordure à gauche
+	- pas d'epacement interne
+	- une taille de police de 1em
+	- une marge en-dessous de 0,25em
+*/
+
+
+/**************/
+/*   Footer   */
+/**************/
+
+/* Le footer a
+	- une taille de police de 0,8em
+	- le texte en couleur
+	- un espacement interne tout autour de 10px
+	- une marge au-dessus de 100px
+*/
+
+/* Le paragraphe n'a pas de marge ni d'espacement interne */
