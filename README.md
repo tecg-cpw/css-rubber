@@ -1,10 +1,10 @@
-# CSS TP03 "Rubber"
+# CSS "Rubber"
 
-> HTML/CSS exercise given at HEPL - TP03
+> HTML/CSS exercise given at HEPL
 
 * * *
 
-**CSS TP03 "Rubber"** is an educational project, which will be used for `HTML`/`CSS` courses.
+**CSS "Rubber"** is an educational project, which will be used for `HTML`/`CSS` courses.
 
 **Note:** the school where the course is given, the [HEPL](http://www.provincedeliege.be/hauteecole) from Liège, Belgium, is a french-speaking school. From this point, the instruction will be in french. Sorry.
 
@@ -15,7 +15,7 @@
 
 * * *
 
-## TP03 - Rubber
+## Rubber
 
 Vous trouverez dans ce dossier une page HTML nommée **index.html**. Cette page contient la page d'accueil d'un site autour du cinéma.  
 Toutefois, le formatage HTML par défaut ne rend pas la page très belle à l’œil : vous allez devoir créer la feuille de style qui donnera à cette page le rendu suivant&nbsp;:
