@@ -25,7 +25,3 @@ Toutefois, le formatage HTML par défaut ne rend pas la page très belle à l’
 ### Consignes
 
 Toutes les consignes se trouvent dans le fichier **css/style.css**, à compléter par vos soins.
-
-* * *
-
-Code original par [François Parmentier](https://github.com/dkmpbe).
